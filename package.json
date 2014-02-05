@@ -1,0 +1,24 @@
+{
+
+  "name": "htmlcov-example",
+  "version": "0.0.1",
+
+  "devDependencies": {
+    "mocha": "~ 1.4.2",
+    "should": "~ 1.1.0",
+    "grunt": "~0.4.1",
+    "grunt-contrib-connect": "",
+    "grunt-contrib-watch": "",
+    "grunt-contrib-coffee": "",
+    "grunt-exec": ""
+  },
+  "bin":{
+    "mocha": "node server"
+  },
+  "scripts": {
+    "test": "mocha -r should -R spec",
+    "start": "node server",
+    "npm test": "mocha"
+  }
+
+}
